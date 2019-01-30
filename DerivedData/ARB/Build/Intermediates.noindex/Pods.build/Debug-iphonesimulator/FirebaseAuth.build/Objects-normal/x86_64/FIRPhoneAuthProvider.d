@@ -1,0 +1,42 @@
+dependencies: \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/Phone/FIRPhoneAuthProvider.m \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/DerivedData/ARB/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/module.modulemap \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRPhoneAuthProvider.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/DerivedData/ARB/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseCore.build/module.modulemap \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseCore/Firebase/Core/Private/FIRLogger.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseCore/Firebase/Core/Public/FIROptions.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseCore/Firebase/Core/Public/FIRLoggerLevel.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseCore/Firebase/Core/Public/FIRConfiguration.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseCore/Firebase/Core/Public/FIRApp.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseCore/Firebase/Core/Public/FIRAnalyticsConfiguration.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/AuthProviders/Phone/FIRPhoneAuthCredential_Internal.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRPhoneAuthCredential.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthCredential.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthAPNSToken.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthAPNSTokenType.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthAPNSTokenManager.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthAppCredential.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthAppCredentialManager.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthGlobalWorkQueue.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuth_Internal.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuth.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthErrors.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthURLPresenter.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthNotificationManager.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthErrorUtils.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRAuthBackend.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FIRAuthSettings.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/FIRAuthWebUtils.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/Public/FirebaseAuthVersion.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRGetProjectConfigRequest.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRIdentityToolkitRequest.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRAuthRequestConfiguration.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRAuthRPCRequest.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRGetProjectConfigResponse.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRAuthRPCResponse.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSendVerificationCodeRequest.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRSendVerificationCodeResponse.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyClientRequest.h \
+  /Users/madushansenavirathna/Documents/Final\ Year\ Project\ ARB/ARB/Pods/FirebaseAuth/Firebase/Auth/Source/RPCs/FIRVerifyClientResponse.h

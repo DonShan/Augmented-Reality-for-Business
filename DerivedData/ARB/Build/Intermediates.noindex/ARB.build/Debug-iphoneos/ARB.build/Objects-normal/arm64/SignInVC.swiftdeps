@@ -1,0 +1,440 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SignInVC"
+provides-nominal:
+- "3ARB8SignInVCC"
+provides-member:
+- ["3ARB8SignInVCC", ""]
+provides-dynamic-lookup:
+- "signInBTN"
+- "signInEmail"
+- "signInName"
+- "signInPassword"
+- "textFieldChanged"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- "SignInVC"
+- !private "StringLiteralType"
+- "UITextField"
+- "UIViewController"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["So15CALayerDelegateP", "text"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "signInBTN"]
+- !private ["s7CVarArgP", "signInEmail"]
+- !private ["s7CVarArgP", "signInName"]
+- !private ["s7CVarArgP", "signInPassword"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "signInBTN"]
+- !private ["s28CustomDebugStringConvertibleP", "signInEmail"]
+- !private ["s28CustomDebugStringConvertibleP", "signInName"]
+- !private ["s28CustomDebugStringConvertibleP", "signInPassword"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "text"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "signInBTN"]
+- !private ["s23CustomStringConvertibleP", "signInEmail"]
+- !private ["s23CustomStringConvertibleP", "signInName"]
+- !private ["s23CustomStringConvertibleP", "signInPassword"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "text"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "text"]
+- ["SQ", ""]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "signInBTN"]
+- !private ["SQ", "signInEmail"]
+- !private ["SQ", "signInName"]
+- !private ["SQ", "signInPassword"]
+- !private ["SQ", "text"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", ""]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "signInBTN"]
+- !private ["SH", "signInEmail"]
+- !private ["SH", "signInName"]
+- !private ["SH", "signInPassword"]
+- !private ["SH", "text"]
+- !private ["SH", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "signInBTN"]
+- !private ["So8NSCodingP", "signInEmail"]
+- !private ["So8NSCodingP", "signInName"]
+- !private ["So8NSCodingP", "signInPassword"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "signInBTN"]
+- !private ["So26NSExtensionRequestHandlingP", "signInEmail"]
+- !private ["So26NSExtensionRequestHandlingP", "signInName"]
+- !private ["So26NSExtensionRequestHandlingP", "signInPassword"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "signInBTN"]
+- ["So8NSObjectC", "signInEmail"]
+- ["So8NSObjectC", "signInName"]
+- ["So8NSObjectC", "signInPassword"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "textFieldChanged"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "signInBTN"]
+- !private ["So8NSObjectP", "signInEmail"]
+- !private ["So8NSObjectP", "signInName"]
+- !private ["So8NSObjectP", "signInPassword"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sq", "text"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- ["3ARB8SignInVCC", "UITextField"]
+- ["3ARB8SignInVCC", "init"]
+- ["3ARB8SignInVCC", "signInBTN"]
+- ["3ARB8SignInVCC", "signInEmail"]
+- ["3ARB8SignInVCC", "signInName"]
+- ["3ARB8SignInVCC", "signInPassword"]
+- ["3ARB8SignInVCC", "textFieldChanged"]
+- ["3ARB8SignInVCC", "viewDidLoad"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "text"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "signInBTN"]
+- !private ["So21UIAppearanceContainerP", "signInEmail"]
+- !private ["So21UIAppearanceContainerP", "signInName"]
+- !private ["So21UIAppearanceContainerP", "signInPassword"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "signInBTN"]
+- !private ["So18UIContentContainerP", "signInEmail"]
+- !private ["So18UIContentContainerP", "signInName"]
+- !private ["So18UIContentContainerP", "signInPassword"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "text"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "signInBTN"]
+- !private ["So18UIFocusEnvironmentP", "signInEmail"]
+- !private ["So18UIFocusEnvironmentP", "signInName"]
+- !private ["So18UIFocusEnvironmentP", "signInPassword"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So10UIKeyInputP", "text"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "signInBTN"]
+- !private ["So30UIPasteConfigurationSupportingP", "signInEmail"]
+- !private ["So30UIPasteConfigurationSupportingP", "signInName"]
+- !private ["So30UIPasteConfigurationSupportingP", "signInPassword"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "UITextField"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "signInBTN"]
+- ["So11UIResponderC", "signInEmail"]
+- ["So11UIResponderC", "signInName"]
+- ["So11UIResponderC", "signInPassword"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "textFieldChanged"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "signInBTN"]
+- !private ["So30UIResponderStandardEditActionsP", "signInEmail"]
+- !private ["So30UIResponderStandardEditActionsP", "signInName"]
+- !private ["So30UIResponderStandardEditActionsP", "signInPassword"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "signInBTN"]
+- !private ["So16UIStateRestoringP", "signInEmail"]
+- !private ["So16UIStateRestoringP", "signInName"]
+- !private ["So16UIStateRestoringP", "signInPassword"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "signInBTN"]
+- !private ["So18UITraitEnvironmentP", "signInEmail"]
+- !private ["So18UITraitEnvironmentP", "signInName"]
+- !private ["So18UITraitEnvironmentP", "signInPassword"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "signInBTN"]
+- !private ["So23UIUserActivityRestoringP", "signInEmail"]
+- !private ["So23UIUserActivityRestoringP", "signInName"]
+- !private ["So23UIUserActivityRestoringP", "signInPassword"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "UITextField"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "signInBTN"]
+- ["So16UIViewControllerC", "signInEmail"]
+- ["So16UIViewControllerC", "signInName"]
+- ["So16UIViewControllerC", "signInPassword"]
+- ["So16UIViewControllerC", "textFieldChanged"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signInBTN"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signInEmail"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signInName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signInPassword"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "Sm"
+- !private "ST"
+- "3ARB8SignInVCC"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So10UIKeyInputP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/DerivedData/ARB/Build/Products/Debug-iphoneos/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SceneKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "659e25d895442ceafcdc07eb8c762c03"

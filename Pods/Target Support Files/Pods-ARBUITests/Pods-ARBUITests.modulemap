@@ -1,0 +1,6 @@
+framework module Pods_ARBUITests {
+  umbrella header "Pods-ARBUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

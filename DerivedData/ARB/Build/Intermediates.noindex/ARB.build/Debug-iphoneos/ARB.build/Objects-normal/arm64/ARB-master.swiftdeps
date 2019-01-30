@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "591cbf8f57b2c4088ad26fb993f9f54b"
+build_time: [1548741490, 346709000]
+inputs:
+  "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/ARB/ViewController.swift": [1548657148, 0]
+  "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/ARB/AppDelegate.swift": [1548657886, 0]
+  "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/ARB/Authantication/ResetEmailVC.swift": [1548736301, 0]
+  "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/ARB/Authantication/SignInVC.swift": [1548741489, 0]
+  "/Users/madushansenavirathna/Documents/Final Year Project ARB/ARB/ARB/Authantication/LogInVC.swift": [1548736125, 0]
