@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		270F01385BBB60DDC476B716 /* Pods_ARB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9680F6919D811D95149C842 /* Pods_ARB.framework */; };
-		2921BCC82201466100E20B2D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2921BCC72201466000E20B2D /* GoogleService-Info.plist */; };
+		291EB9F32202E820003CA1C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 291EB9F22202E820003CA1C6 /* GoogleService-Info.plist */; };
 		2921BCCC22014F1600E20B2D /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2921BCCB22014F1600E20B2D /* SignInVC.swift */; };
 		2921BCCE22014F5100E20B2D /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2921BCCD22014F5100E20B2D /* LogInVC.swift */; };
 		2921BCD222014FAD00E20B2D /* Reset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2921BCD122014FAD00E20B2D /* Reset.swift */; };
@@ -22,6 +22,7 @@
 		296DF01D21FED97F003C8A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296DF01B21FED97F003C8A81 /* LaunchScreen.storyboard */; };
 		296DF02821FED97F003C8A81 /* ARBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296DF02721FED97F003C8A81 /* ARBTests.swift */; };
 		296DF03321FED97F003C8A81 /* ARBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296DF03221FED97F003C8A81 /* ARBUITests.swift */; };
+		29774AC62202BAA5003666CF /* AJProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29774AC52202BAA5003666CF /* AJProgressView.swift */; };
 		42434FD7C5B3E75CB3B3B231 /* Pods_ARBUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6791D920C95A22B4F0AA579 /* Pods_ARBUITests.framework */; };
 		52ED0F4351B31DCD63565855 /* Pods_ARBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D19C5488CD87CE94AC5162 /* Pods_ARBTests.framework */; };
 /* End PBXBuildFile section */
@@ -44,7 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2921BCC72201466000E20B2D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		291EB9F22202E820003CA1C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2921BCCB22014F1600E20B2D /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		2921BCCD22014F5100E20B2D /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
 		2921BCD122014FAD00E20B2D /* Reset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reset.swift; sourceTree = "<group>"; };
@@ -64,6 +65,7 @@
 		296DF02E21FED97F003C8A81 /* ARBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		296DF03221FED97F003C8A81 /* ARBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBUITests.swift; sourceTree = "<group>"; };
 		296DF03421FED97F003C8A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29774AC52202BAA5003666CF /* AJProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJProgressView.swift; sourceTree = "<group>"; };
 		3582A9F83C59C61DB67FBF5A /* Pods-ARBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARBUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARBUITests/Pods-ARBUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		79D19C5488CD87CE94AC5162 /* Pods_ARBTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARBTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B9F74895EEFEA189433518 /* Pods-ARB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARB/Pods-ARB.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 		296DF00F21FED97C003C8A81 /* ARB */ = {
 			isa = PBXGroup;
 			children = (
+				29774AC42202BA56003666CF /* ActivityIndicator */,
 				2921BCD3220171B300E20B2D /* Onbording */,
 				2912C06621FF0E0200A8C5CC /* Authantication */,
 				296DF01021FED97C003C8A81 /* AppDelegate.swift */,
@@ -156,7 +159,7 @@
 				296DF01921FED97F003C8A81 /* Assets.xcassets */,
 				296DF01B21FED97F003C8A81 /* LaunchScreen.storyboard */,
 				296DF01E21FED97F003C8A81 /* Info.plist */,
-				2921BCC72201466000E20B2D /* GoogleService-Info.plist */,
+				291EB9F22202E820003CA1C6 /* GoogleService-Info.plist */,
 			);
 			path = ARB;
 			sourceTree = "<group>";
@@ -177,6 +180,14 @@
 				296DF03421FED97F003C8A81 /* Info.plist */,
 			);
 			path = ARBUITests;
+			sourceTree = "<group>";
+		};
+		29774AC42202BA56003666CF /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				29774AC52202BAA5003666CF /* AJProgressView.swift */,
+			);
+			path = ActivityIndicator;
 			sourceTree = "<group>";
 		};
 		5B3D3F09D0562433E3117D94 /* Frameworks */ = {
@@ -312,7 +323,7 @@
 			files = (
 				296DF01321FED97C003C8A81 /* art.scnassets in Resources */,
 				296DF01D21FED97F003C8A81 /* LaunchScreen.storyboard in Resources */,
-				2921BCC82201466100E20B2D /* GoogleService-Info.plist in Resources */,
+				291EB9F32202E820003CA1C6 /* GoogleService-Info.plist in Resources */,
 				296DF01A21FED97F003C8A81 /* Assets.xcassets in Resources */,
 				296DF01821FED97C003C8A81 /* Main.storyboard in Resources */,
 			);
@@ -440,6 +451,7 @@
 			files = (
 				296DF01521FED97C003C8A81 /* ViewController.swift in Sources */,
 				296DF01121FED97C003C8A81 /* AppDelegate.swift in Sources */,
+				29774AC62202BAA5003666CF /* AJProgressView.swift in Sources */,
 				2921BCD92201F27F00E20B2D /* WalkThruVC.swift in Sources */,
 				2921BCCE22014F5100E20B2D /* LogInVC.swift in Sources */,
 				2921BCCC22014F1600E20B2D /* SignInVC.swift in Sources */,
@@ -630,7 +642,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ARB-FInalYear-Madushan.ARB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -649,7 +661,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ARB-FInalYear-Madushan.ARB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

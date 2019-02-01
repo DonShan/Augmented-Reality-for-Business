@@ -11,6 +11,8 @@ import FirebaseAuth
 import SwiftOverlays
 
 class LogInVC: UIViewController {
+    
+     let objAJProgressView = AJProgressView()
 
     @IBOutlet weak var logInEmail: UITextField!
     @IBOutlet weak var logInPassword: UITextField!
@@ -21,11 +23,22 @@ class LogInVC: UIViewController {
     }
     
     @IBAction func logInBtn(_ sender: Any) {
+        
+//        let text = "Please wait to log in"
+//        self.showWaitOverlayWithText(text)
+        
+        objAJProgressView.show()
+        
         Auth.auth().signIn(withEmail: logInEmail.text!, password: logInPassword.text!) { (user, error) in
+            
+//            self.removeAllOverlays()
+            
+            self.objAJProgressView.hide()
+            
             if error == nil{
                 
                self.performSegue(withIdentifier: "loginToHome", sender: self)
-                print("log in success.! ================================================>")
+                print("log in success.================================================>")
                 
                 
             }
