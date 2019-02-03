@@ -452,7 +452,7 @@
                     <connections>
                         <outlet property="logInEmail" destination="SeP-wS-kvx" id="GG6-HO-5QD"/>
                         <outlet property="logInPassword" destination="xmw-Ic-Lnz" id="XmD-6f-cxC"/>
-                        <segue destination="U0C-bv-grE" kind="show" identifier="loginToHome" id="fRE-6p-xkh"/>
+                        <segue destination="BV1-FR-VrT" kind="show" identifier="loginToHome" id="TTw-cu-uKj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JHv-5N-Nn0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -636,10 +636,10 @@
             </objects>
             <point key="canvasLocation" x="2709.5999999999999" y="3.6945812807881775"/>
         </scene>
-        <!--Page View Controller-->
+        <!--Walk Thru-->
         <scene sceneID="YKC-Ol-UOC">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="woI-8e-bPR" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="woI-8e-bPR" customClass="walkThru" customModule="ARB" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bUc-z9-ZPw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3438" y="4"/>
@@ -763,7 +763,7 @@
         <image name="Sign in fix Copy 2" width="414" height="1050"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="2nd-fB-deL"/>
+        <segue reference="aKE-ZF-ydt"/>
         <segue reference="S2z-US-H62"/>
     </inferredMetricsTieBreakers>
 </document>
