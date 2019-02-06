@@ -18,7 +18,7 @@ class OnbordingContainerVC: UIViewController {
     
     @IBOutlet var discriptionLabel: UILabel!{
         didSet {
-            discriptionLabel.numberOfLines = 2
+            discriptionLabel.numberOfLines = 3
         }
     }
     
@@ -39,11 +39,7 @@ class OnbordingContainerVC: UIViewController {
         discriptionLabel.text = discription
         imageView.image = UIImage(named: imageFile)
 
-       
     }
     
-
-  
-
 }
 
