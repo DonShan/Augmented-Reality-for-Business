@@ -8,7 +8,7 @@
 
 import UIKit
 
-class walkThroughViewController: UIViewController {
+class walkThroughViewController: UIViewController, WalkThroughPageViewControllerDelegate {
 
     //Mark : outlets
     @IBOutlet var pageControl: UIPageControl!
@@ -19,6 +19,7 @@ class walkThroughViewController: UIViewController {
     var WalkThroughPageViewController: WalkThroughPageViewController?
     
     @IBAction func skipButton(sender: UIButton) {
+         UserDefaults.standard.set(true, forKey: "hasViewWalkingthrough")
         dismiss(animated: true, completion: nil)
     }
     
@@ -27,10 +28,13 @@ class walkThroughViewController: UIViewController {
             switch index{
             case 0...1: WalkThroughPageViewController?.fowordPage()
             case 2:
+                UserDefaults.standard.set(true, forKey: "hasViewWalkingthrough")
                 dismiss(animated: true, completion: nil)
             default: break
             }
         }
+      updateUI()
+    }
         func updateUI(){
             if let index = WalkThroughPageViewController?.currentIndex{
             switch index{
@@ -47,11 +51,14 @@ class walkThroughViewController: UIViewController {
                 pageControl.currentPage = index
         }
     }
+    
+    func didUpdatePageIndex(currentIndex: Int) {
+        updateUI()
+    }
     // Mark - View controller life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
     }
     
     //Mark - Navigation
@@ -60,10 +67,8 @@ class walkThroughViewController: UIViewController {
         let destination = segue.destination
         if let pageViewController = destination as? WalkThroughPageViewController{
             WalkThroughPageViewController = pageViewController
-        }
+            WalkThroughPageViewController?.walkthrougtDelegate = self
+      }
     }
-    
+  }
 
-
-}
-}

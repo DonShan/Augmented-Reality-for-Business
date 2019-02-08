@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="U0C-bv-grE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="clh-Jx-kYo">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -452,7 +452,7 @@
                     <connections>
                         <outlet property="logInEmail" destination="SeP-wS-kvx" id="GG6-HO-5QD"/>
                         <outlet property="logInPassword" destination="xmw-Ic-Lnz" id="XmD-6f-cxC"/>
-                        <segue destination="U0C-bv-grE" kind="show" id="tU3-dF-3eL"/>
+                        <segue destination="U0C-bv-grE" kind="show" identifier="loginToHome" id="tU3-dF-3eL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JHv-5N-Nn0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -574,9 +574,9 @@
                                 <rect key="frame" x="0.0" y="730.33333333333337" width="375" height="81.666666666666629"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W3X-PU-Nsu">
-                                        <rect key="frame" x="299" y="23" width="42" height="33"/>
+                                        <rect key="frame" x="270" y="23" width="93" height="33"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="W3X-PU-Nsu" secondAttribute="height" multiplier="14:11" id="oyY-hB-11q"/>
+                                            <constraint firstAttribute="width" secondItem="W3X-PU-Nsu" secondAttribute="height" multiplier="14:11" constant="51" id="oyY-hB-11q"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                         <state key="normal" title="NEXT">
@@ -613,10 +613,10 @@
                                     <constraint firstItem="dly-H1-Qc3" firstAttribute="centerY" secondItem="J93-k8-CEc" secondAttribute="centerY" id="Kya-xc-4q2"/>
                                     <constraint firstItem="J93-k8-CEc" firstAttribute="top" secondItem="d44-UT-wNy" secondAttribute="top" constant="23" id="Lhb-TR-LIR"/>
                                     <constraint firstItem="dly-H1-Qc3" firstAttribute="leading" secondItem="J93-k8-CEc" secondAttribute="trailing" constant="97" id="SmM-pb-nbh"/>
-                                    <constraint firstAttribute="trailing" secondItem="W3X-PU-Nsu" secondAttribute="trailing" constant="34" id="Szg-hO-7e9"/>
+                                    <constraint firstAttribute="trailing" secondItem="W3X-PU-Nsu" secondAttribute="trailing" constant="12" id="Szg-hO-7e9"/>
                                     <constraint firstItem="J93-k8-CEc" firstAttribute="leading" secondItem="d44-UT-wNy" secondAttribute="leading" constant="34" id="rHm-ch-cah"/>
                                     <constraint firstItem="W3X-PU-Nsu" firstAttribute="top" secondItem="d44-UT-wNy" secondAttribute="top" constant="23" id="soo-ti-QIf"/>
-                                    <constraint firstItem="W3X-PU-Nsu" firstAttribute="leading" secondItem="dly-H1-Qc3" secondAttribute="trailing" constant="92" id="u2b-lY-jiv"/>
+                                    <constraint firstItem="W3X-PU-Nsu" firstAttribute="leading" secondItem="dly-H1-Qc3" secondAttribute="trailing" constant="63" id="u2b-lY-jiv"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -653,7 +653,7 @@
                 <pageViewController storyboardIdentifier="WalkThroughPageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="woI-8e-bPR" customClass="WalkThroughPageViewController" customModule="ARB" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bUc-z9-ZPw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3438" y="4"/>
+            <point key="canvasLocation" x="3550" y="4"/>
         </scene>
         <!--Onbording ContainerVC-->
         <scene sceneID="Ub4-2X-w2n">
@@ -715,12 +715,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xxm-qW-CDs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4172" y="3.6945812807881775"/>
+            <point key="canvasLocation" x="4354" y="4"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tXr-a1-R10">
             <objects>
-                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="ARB" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="hasViewWalkThrough" id="BV1-FR-VrT" customClass="ViewController" customModule="ARB" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -775,7 +775,7 @@
         <image name="Sign in fix Copy 2" width="414" height="1050"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="OfD-hN-Ylh"/>
-        <segue reference="S2z-US-H62"/>
+        <segue reference="y50-0k-z6i"/>
+        <segue reference="eAP-Dz-HTf"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -45,6 +45,20 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Pause the view's session
         sceneView.session.pause()
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        //
+        if UserDefaults.standard.bool(forKey: "hasViewWalkThrough"){
+            return
+        }
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        if let walkThroughViewController = storyboard.instantiateViewController(withIdentifier: "walkThroughViewController") as? walkThroughViewController {
+            present(walkThroughViewController , animated: true, completion: nil)
+        
+        }
     }
 
     // MARK: - ARSCNViewDelegate

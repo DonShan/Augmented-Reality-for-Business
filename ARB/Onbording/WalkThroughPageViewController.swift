@@ -8,10 +8,16 @@
 
 import UIKit
 
-class WalkThroughPageViewController: UIPageViewController, UIPageViewControllerDataSource{
-    
+protocol  WalkThroughPageViewControllerDelegate: class {
+    func didUpdatePageIndex(currentIndex: Int)
+}
+
+class WalkThroughPageViewController: UIPageViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate{
     
     // mark - proprerties
+    
+    weak var walkthrougtDelegate: WalkThroughPageViewControllerDelegate?
+    
     let pageTitle = ["TIME SAVING", "AUTOMATIC LOACTION", "FIND OUT VERY EASILY"]
     let pageDiscription = ["NOW SIMPLY AND MAKE INTERACTIVE TIME SAVING WITH AR", "LOCATION BASE SCANING", "DISCOVER AND FIND OUT WITH AR"]
     let pageImages = ["1", "2", "3"]
@@ -63,14 +69,25 @@ class WalkThroughPageViewController: UIPageViewController, UIPageViewControllerD
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //set the data source it self
+        //set the data source and the delegate to itself
         dataSource = self
+        delegate = self
         
         //Create first walk through screan
         if let StratingViewController = contentViewController(index: 0) {
             setViewControllers([StratingViewController], direction: .forward, animated: true, completion: nil)
         }
 
+    }
+    
+    //Mark - Page view controller delegate
+    func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
+        if completed{
+            if let contentViewController = pageViewController.viewControllers?.first as? OnbordingContainerVC {
+                currentIndex = contentViewController.index
+                walkthrougtDelegate?.didUpdatePageIndex(currentIndex: currentIndex)
+            }
+        }
     }
     
 
