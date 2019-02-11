@@ -10,6 +10,7 @@ target 'ARB' do
   pod 'Firebase/Core'
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
 pod 'SwiftOverlays', '~> 5.0.0'
 
   target 'ARBTests' do

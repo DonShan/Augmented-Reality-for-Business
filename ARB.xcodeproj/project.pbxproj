@@ -15,7 +15,7 @@
 		2921BCD72201E86A00E20B2D /* OnbordingContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2921BCD62201E86A00E20B2D /* OnbordingContainerVC.swift */; };
 		2925F501220A9CBF004523F9 /* WalkThroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2925F500220A9CBF004523F9 /* WalkThroughPageViewController.swift */; };
 		2925F504220AAF14004523F9 /* walkThroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2925F503220AAF14004523F9 /* walkThroughViewController.swift */; };
-		296DF01121FED97C003C8A81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296DF01021FED97C003C8A81 /* AppDelegate.swift */; };
+		2945BD8422113559006AB2A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945BD8322113559006AB2A4 /* AppDelegate.swift */; };
 		296DF01321FED97C003C8A81 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 296DF01221FED97C003C8A81 /* art.scnassets */; };
 		296DF01521FED97C003C8A81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296DF01421FED97C003C8A81 /* ViewController.swift */; };
 		296DF01821FED97C003C8A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296DF01621FED97C003C8A81 /* Main.storyboard */; };
@@ -24,6 +24,7 @@
 		296DF02821FED97F003C8A81 /* ARBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296DF02721FED97F003C8A81 /* ARBTests.swift */; };
 		296DF03321FED97F003C8A81 /* ARBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296DF03221FED97F003C8A81 /* ARBUITests.swift */; };
 		29774AC62202BAA5003666CF /* AJProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29774AC52202BAA5003666CF /* AJProgressView.swift */; };
+		29B9BCF822103E3600C9ECCF /* HideButtons.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29B9BCF722103E3600C9ECCF /* HideButtons.xib */; };
 		42434FD7C5B3E75CB3B3B231 /* Pods_ARBUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6791D920C95A22B4F0AA579 /* Pods_ARBUITests.framework */; };
 		52ED0F4351B31DCD63565855 /* Pods_ARBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D19C5488CD87CE94AC5162 /* Pods_ARBTests.framework */; };
 /* End PBXBuildFile section */
@@ -53,8 +54,8 @@
 		2921BCD62201E86A00E20B2D /* OnbordingContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbordingContainerVC.swift; sourceTree = "<group>"; };
 		2925F500220A9CBF004523F9 /* WalkThroughPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughPageViewController.swift; sourceTree = "<group>"; };
 		2925F503220AAF14004523F9 /* walkThroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walkThroughViewController.swift; sourceTree = "<group>"; };
+		2945BD8322113559006AB2A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		296DF00D21FED97C003C8A81 /* ARB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARB.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		296DF01021FED97C003C8A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		296DF01221FED97C003C8A81 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		296DF01421FED97C003C8A81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		296DF01721FED97C003C8A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 		296DF03221FED97F003C8A81 /* ARBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBUITests.swift; sourceTree = "<group>"; };
 		296DF03421FED97F003C8A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29774AC52202BAA5003666CF /* AJProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJProgressView.swift; sourceTree = "<group>"; };
+		29B9BCF722103E3600C9ECCF /* HideButtons.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HideButtons.xib; sourceTree = "<group>"; };
 		3582A9F83C59C61DB67FBF5A /* Pods-ARBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARBUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARBUITests/Pods-ARBUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		79D19C5488CD87CE94AC5162 /* Pods_ARBTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARBTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B9F74895EEFEA189433518 /* Pods-ARB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARB/Pods-ARB.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +129,13 @@
 			path = Onbording;
 			sourceTree = "<group>";
 		};
+		2925CEA4220D6FFD008BBF45 /* iphone 3d model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "iphone 3d model";
+			sourceTree = "<group>";
+		};
 		2925F502220AAED4004523F9 /* Controlling */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,13 +169,15 @@
 		296DF00F21FED97C003C8A81 /* ARB */ = {
 			isa = PBXGroup;
 			children = (
+				2925CEA4220D6FFD008BBF45 /* iphone 3d model */,
 				29774AC42202BA56003666CF /* ActivityIndicator */,
 				2921BCD3220171B300E20B2D /* Onbording */,
 				2912C06621FF0E0200A8C5CC /* Authantication */,
-				296DF01021FED97C003C8A81 /* AppDelegate.swift */,
 				296DF01221FED97C003C8A81 /* art.scnassets */,
 				296DF01421FED97C003C8A81 /* ViewController.swift */,
+				2945BD8322113559006AB2A4 /* AppDelegate.swift */,
 				296DF01621FED97C003C8A81 /* Main.storyboard */,
+				29B9BCF722103E3600C9ECCF /* HideButtons.xib */,
 				296DF01921FED97F003C8A81 /* Assets.xcassets */,
 				296DF01B21FED97F003C8A81 /* LaunchScreen.storyboard */,
 				296DF01E21FED97F003C8A81 /* Info.plist */,
@@ -236,6 +247,7 @@
 				296DF00A21FED97C003C8A81 /* Frameworks */,
 				296DF00B21FED97C003C8A81 /* Resources */,
 				DA13C7CB180BBFA6D0215A5A /* [CP] Embed Pods Frameworks */,
+				15066152D8111EF6C77139DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -296,6 +308,7 @@
 				TargetAttributes = {
 					296DF00C21FED97C003C8A81 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					296DF02221FED97F003C8A81 = {
 						CreatedOnToolsVersion = 10.1;
@@ -335,6 +348,7 @@
 				296DF01321FED97C003C8A81 /* art.scnassets in Resources */,
 				296DF01D21FED97F003C8A81 /* LaunchScreen.storyboard in Resources */,
 				291EB9F32202E820003CA1C6 /* GoogleService-Info.plist in Resources */,
+				29B9BCF822103E3600C9ECCF /* HideButtons.xib in Resources */,
 				296DF01A21FED97F003C8A81 /* Assets.xcassets in Resources */,
 				296DF01821FED97C003C8A81 /* Main.storyboard in Resources */,
 			);
@@ -377,6 +391,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15066152D8111EF6C77139DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARB/Pods-ARB-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARB/Pods-ARB-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7ACF67ED64B01106622B0A41 /* [CP] Check Pods Manifest.lock */ = {
@@ -432,7 +468,9 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ARB/Pods-ARB-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftOverlays/SwiftOverlays.framework",
@@ -442,7 +480,9 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftOverlays.framework",
@@ -461,9 +501,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				296DF01521FED97C003C8A81 /* ViewController.swift in Sources */,
-				296DF01121FED97C003C8A81 /* AppDelegate.swift in Sources */,
 				2925F501220A9CBF004523F9 /* WalkThroughPageViewController.swift in Sources */,
 				29774AC62202BAA5003666CF /* AJProgressView.swift in Sources */,
+				2945BD8422113559006AB2A4 /* AppDelegate.swift in Sources */,
 				2921BCCE22014F5100E20B2D /* LogInVC.swift in Sources */,
 				2921BCCC22014F1600E20B2D /* SignInVC.swift in Sources */,
 				2925F504220AAF14004523F9 /* walkThroughViewController.swift in Sources */,
@@ -644,6 +684,7 @@
 			baseConfigurationReference = A5B9F74895EEFEA189433518 /* Pods-ARB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CDY4S44M5Q;
 				INFOPLIST_FILE = ARB/Info.plist;
@@ -654,6 +695,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ARB-FInalYear-Madushan.ARB";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -664,6 +706,7 @@
 			baseConfigurationReference = B91D8C1C46E945C5E3281B85 /* Pods-ARB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CDY4S44M5Q;
 				INFOPLIST_FILE = ARB/Info.plist;

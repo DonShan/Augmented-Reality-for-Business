@@ -8,11 +8,12 @@
 
 import UIKit
 import FirebaseAuth
+import Firebase
+import GoogleSignIn
+
 //import SwiftOverlays
 
-
-
-class SignInVC: UIViewController {
+class SignInVC: UIViewController, GIDSignInUIDelegate{
     
     let objAJProgressView = AJProgressView()
 
@@ -20,23 +21,29 @@ class SignInVC: UIViewController {
     @IBOutlet weak var signInEmail: UITextField!
     @IBOutlet weak var signInPassword: UITextField!
     
+    @IBOutlet var googleLoginButton: GIDSignInButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        GIDSignIn.sharedInstance()?.uiDelegate = self
+        
+        googleLoginButton.style = .wide
+        
 
         
     }
     
     @IBAction func signInBtn(_ sender: Any) {
-        
-//        let text = "Please wait to log in"
-//        self.showWaitOverlayWithText(text)
-        objAJProgressView.show()
+      
+                //activity indicator show method
+                objAJProgressView.show()
        
-        
             Auth.auth().createUser(withEmail:  signInEmail.text!, password: signInPassword.text!){ (user, error) in
                 
+                //activity indicator when the sync is succcess it will show and hide
                 self.objAJProgressView.hide()
-//               self.removeAllOverlays()
                 
                 if error == nil {
                     

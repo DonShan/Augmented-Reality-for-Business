@@ -24,15 +24,12 @@ class LogInVC: UIViewController {
     
     @IBAction func logInBtn(_ sender: Any) {
         
-//        let text = "Please wait to log in"
-//        self.showWaitOverlayWithText(text)
-        
-        objAJProgressView.show()
+         //activity indicator show method
+         objAJProgressView.show()
         
         Auth.auth().signIn(withEmail: logInEmail.text!, password: logInPassword.text!) { (user, error) in
             
-//            self.removeAllOverlays()
-            
+            //activity indicator when the sync is succcess it will show and hide
             self.objAJProgressView.hide()
             
             if error == nil{
