@@ -65,7 +65,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
             // ToDo : Use this google user object to sign in with firebase
            
         }
-         print("You are now Sign in as far as s Google is connected")
+         print("You are now Sign in as far as s Google is connected ==========================================>")
         guard let authentication = user.authentication else { return }
         let credential = GoogleAuthProvider.credential(withIDToken: authentication.idToken,accessToken: authentication.accessToken)
         
