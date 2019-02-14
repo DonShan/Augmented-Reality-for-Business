@@ -19,8 +19,9 @@ class walkThroughViewController: UIViewController, WalkThroughPageViewController
     var WalkThroughPageViewController: WalkThroughPageViewController?
     
     @IBAction func skipButton(sender: UIButton) {
-         UserDefaults.standard.set(true, forKey: "hasViewWalkingthrough")
-        dismiss(animated: true, completion: nil)
+//         UserDefaults.standard.set(true, forKey: "ViewController")
+//        dismiss(animated: true, completion: nil)
+        self.performSegue(withIdentifier: "skipButton", sender: self)
     }
     
     @IBAction func nectButtonTapped(sender: UIButton){
@@ -28,8 +29,9 @@ class walkThroughViewController: UIViewController, WalkThroughPageViewController
             switch index{
             case 0...1: WalkThroughPageViewController?.fowordPage()
             case 2:
-                UserDefaults.standard.set(true, forKey: "hasViewWalkingthrough")
-                dismiss(animated: true, completion: nil)
+//                UserDefaults.standard.set(true, forKey: "ViewController")
+//                dismiss(animated: true, completion: nil)
+                 self.performSegue(withIdentifier: "skipButton", sender: self)
             default: break
             }
         }
@@ -63,6 +65,7 @@ class walkThroughViewController: UIViewController, WalkThroughPageViewController
     
     //Mark - Navigation
     
+    //
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
         let destination = segue.destination
         if let pageViewController = destination as? WalkThroughPageViewController{

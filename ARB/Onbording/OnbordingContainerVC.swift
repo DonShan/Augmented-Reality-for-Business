@@ -28,9 +28,7 @@ class OnbordingContainerVC: UIViewController {
         var titlebar = ""
         var discription = ""
         var imageFile = ""
-        
-        
-
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

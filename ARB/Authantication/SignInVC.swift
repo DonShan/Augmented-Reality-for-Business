@@ -48,7 +48,7 @@ class SignInVC: UIViewController, GIDSignInUIDelegate{
                 if error == nil {
                     
               self.performSegue(withIdentifier: "signupToHome", sender: self)
-                    print("Log in success.! =======================================>")
+                    print("Sign in in success.! =======================================>")
                     
                    
                     

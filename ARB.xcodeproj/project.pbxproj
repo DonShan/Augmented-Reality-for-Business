@@ -24,6 +24,10 @@
 		296DF02821FED97F003C8A81 /* ARBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296DF02721FED97F003C8A81 /* ARBTests.swift */; };
 		296DF03321FED97F003C8A81 /* ARBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296DF03221FED97F003C8A81 /* ARBUITests.swift */; };
 		29774AC62202BAA5003666CF /* AJProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29774AC52202BAA5003666CF /* AJProgressView.swift */; };
+		299588352214597200F7FF09 /* obj phone (1).obj in Resources */ = {isa = PBXBuildFile; fileRef = 299588342214597100F7FF09 /* obj phone (1).obj */; };
+		299588372214598E00F7FF09 /* lambert5_Base_Color.png in Resources */ = {isa = PBXBuildFile; fileRef = 299588362214598D00F7FF09 /* lambert5_Base_Color.png */; };
+		2995883922145A8500F7FF09 /* obj headset.obj in Resources */ = {isa = PBXBuildFile; fileRef = 2995883822145A8400F7FF09 /* obj headset.obj */; };
+		2995883B22145AC800F7FF09 /* lambert4_Base_Color.png in Resources */ = {isa = PBXBuildFile; fileRef = 2995883A22145AC800F7FF09 /* lambert4_Base_Color.png */; };
 		29B9BCF822103E3600C9ECCF /* HideButtons.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29B9BCF722103E3600C9ECCF /* HideButtons.xib */; };
 		42434FD7C5B3E75CB3B3B231 /* Pods_ARBUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6791D920C95A22B4F0AA579 /* Pods_ARBUITests.framework */; };
 		52ED0F4351B31DCD63565855 /* Pods_ARBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D19C5488CD87CE94AC5162 /* Pods_ARBTests.framework */; };
@@ -69,6 +73,10 @@
 		296DF03221FED97F003C8A81 /* ARBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBUITests.swift; sourceTree = "<group>"; };
 		296DF03421FED97F003C8A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29774AC52202BAA5003666CF /* AJProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJProgressView.swift; sourceTree = "<group>"; };
+		299588342214597100F7FF09 /* obj phone (1).obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "obj phone (1).obj"; sourceTree = "<group>"; };
+		299588362214598D00F7FF09 /* lambert5_Base_Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lambert5_Base_Color.png; sourceTree = "<group>"; };
+		2995883822145A8400F7FF09 /* obj headset.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "obj headset.obj"; sourceTree = "<group>"; };
+		2995883A22145AC800F7FF09 /* lambert4_Base_Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lambert4_Base_Color.png; sourceTree = "<group>"; };
 		29B9BCF722103E3600C9ECCF /* HideButtons.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HideButtons.xib; sourceTree = "<group>"; };
 		3582A9F83C59C61DB67FBF5A /* Pods-ARBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARBUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARBUITests/Pods-ARBUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		79D19C5488CD87CE94AC5162 /* Pods_ARBTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARBTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +140,10 @@
 		2925CEA4220D6FFD008BBF45 /* iphone 3d model */ = {
 			isa = PBXGroup;
 			children = (
+				299588342214597100F7FF09 /* obj phone (1).obj */,
+				299588362214598D00F7FF09 /* lambert5_Base_Color.png */,
+				2995883822145A8400F7FF09 /* obj headset.obj */,
+				2995883A22145AC800F7FF09 /* lambert4_Base_Color.png */,
 			);
 			path = "iphone 3d model";
 			sourceTree = "<group>";
@@ -345,12 +357,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2995883922145A8500F7FF09 /* obj headset.obj in Resources */,
 				296DF01321FED97C003C8A81 /* art.scnassets in Resources */,
+				299588352214597200F7FF09 /* obj phone (1).obj in Resources */,
 				296DF01D21FED97F003C8A81 /* LaunchScreen.storyboard in Resources */,
 				291EB9F32202E820003CA1C6 /* GoogleService-Info.plist in Resources */,
 				29B9BCF822103E3600C9ECCF /* HideButtons.xib in Resources */,
 				296DF01A21FED97F003C8A81 /* Assets.xcassets in Resources */,
+				299588372214598E00F7FF09 /* lambert5_Base_Color.png in Resources */,
 				296DF01821FED97C003C8A81 /* Main.storyboard in Resources */,
+				2995883B22145AC800F7FF09 /* lambert4_Base_Color.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
