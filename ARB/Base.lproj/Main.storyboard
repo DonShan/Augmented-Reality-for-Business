@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="clh-Jx-kYo">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -306,6 +306,36 @@
             </objects>
             <point key="canvasLocation" x="680.79999999999995" y="779.55665024630548"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="69h-Ea-j3H">
+            <objects>
+                <viewController id="xBs-Ro-U1J" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8jn-Y0-nc0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="8tx-lB-iuT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lpa-mW-x7L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2076" y="1082"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Snq-VZ-n4A">
+            <objects>
+                <viewController id="eEX-fe-QOq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g0l-g7-LFr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="h7n-r3-tE5"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TUe-B4-qfx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2860" y="1079"/>
+        </scene>
         <!--Log InVC-->
         <scene sceneID="GAW-Ao-fuU">
             <objects>
@@ -582,9 +612,6 @@
                                         </state>
                                         <connections>
                                             <action selector="nectButtonTappedWithSender:" destination="U0C-bv-grE" eventType="touchUpInside" id="kvl-1I-ozC"/>
-                                            <segue destination="BV1-FR-VrT" kind="popoverPresentation" identifier="nextButton" popoverAnchorView="W3X-PU-Nsu" id="sIo-SR-dJf">
-                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                            </segue>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J93-k8-CEc">
@@ -598,9 +625,6 @@
                                         </state>
                                         <connections>
                                             <action selector="skipButtonWithSender:" destination="U0C-bv-grE" eventType="touchUpInside" id="tT5-wt-XIO"/>
-                                            <segue destination="BV1-FR-VrT" kind="popoverPresentation" identifier="skipButton" popoverAnchorView="J93-k8-CEc" id="lxT-5A-3dc">
-                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                            </segue>
                                         </connections>
                                     </button>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="dly-H1-Qc3">
@@ -649,7 +673,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="07N-cr-7sz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2709.5999999999999" y="3.6945812807881775"/>
+            <point key="canvasLocation" x="2708" y="4"/>
         </scene>
         <!--Walk Through Page View Controller-->
         <scene sceneID="YKC-Ol-UOC">
@@ -783,7 +807,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5301.6000000000004" y="614.77832512315274"/>
+            <point key="canvasLocation" x="6244" y="614.77832512315274"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="HWT-Kx-yFa">
@@ -890,7 +914,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="70P-ef-DES" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6056.8000000000002" y="617.73399014778329"/>
+            <point key="canvasLocation" x="6999.1999999999998" y="617.73399014778329"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hT9-Wh-qs9">
@@ -955,7 +979,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7gi-mu-qxD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6752.8000000000002" y="617.73399014778329"/>
+            <point key="canvasLocation" x="7695.1999999999998" y="617.73399014778329"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DiD-Mc-mrf">
@@ -996,7 +1020,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q2I-Z4-5sn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6753" y="1289"/>
+            <point key="canvasLocation" x="7695.1999999999998" y="1288.6699507389162"/>
         </scene>
     </scenes>
     <resources>
@@ -1011,8 +1035,7 @@
         <image name="iPhone XS Max Copy 23" width="414" height="896"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="sIo-SR-dJf"/>
         <segue reference="aKE-ZF-ydt"/>
-        <segue reference="S2z-US-H62"/>
+        <segue reference="62h-uv-q1n"/>
     </inferredMetricsTieBreakers>
 </document>

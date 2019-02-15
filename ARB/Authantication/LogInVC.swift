@@ -19,6 +19,7 @@ class LogInVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+     
 
     }
     
@@ -36,6 +37,7 @@ class LogInVC: UIViewController {
                 
                self.performSegue(withIdentifier: "loginToHome", sender: self)
                 print("log in success.================================================>")
+                //root view controller pass
                 
                 
             }
