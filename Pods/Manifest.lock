@@ -1,4 +1,5 @@
 PODS:
+  - DJSemiModalViewController (0.1.2)
   - Firebase/Auth (5.10.0):
     - Firebase/CoreOnly
     - FirebaseAuth (= 5.0.4)
@@ -81,6 +82,7 @@ PODS:
   - SwiftOverlays (5.0.1)
 
 DEPENDENCIES:
+  - DJSemiModalViewController
   - Firebase/Auth
   - Firebase/Core
   - GoogleSignIn
@@ -89,6 +91,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - DJSemiModalViewController
     - Firebase
     - FirebaseAnalytics
     - FirebaseAuth
@@ -106,6 +109,7 @@ SPEC REPOS:
     - SwiftOverlays
 
 SPEC CHECKSUMS:
+  DJSemiModalViewController: 37874ffd8e040e78aed443435e8d388da783028d
   Firebase: 6691d47562a780c26281ce8464518faafc90c610
   FirebaseAnalytics: 831f1f127f4a75698e9875a87bf7e2668730d953
   FirebaseAuth: 504b198ceb3472dca5c65bb95544ea44cfc9439e
@@ -122,6 +126,6 @@ SPEC CHECKSUMS:
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   SwiftOverlays: ab459ea9194b0e96aaccaa00e9ead1bf6d46eef1
 
-PODFILE CHECKSUM: 7120a3eae7d9831f73849056792f2ba233dd874c
+PODFILE CHECKSUM: a21fb46781bb068aedb9e3c7ba1a448beeacf2e8
 
 COCOAPODS: 1.5.3

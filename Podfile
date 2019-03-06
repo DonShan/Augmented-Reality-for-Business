@@ -11,7 +11,8 @@ target 'ARB' do
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'GoogleSignIn'
-pod 'SwiftOverlays', '~> 5.0.0'
+  pod 'SwiftOverlays', '~> 5.0.0'
+  pod 'DJSemiModalViewController'
 
   target 'ARBTests' do
     inherit! :search_paths
