@@ -62,10 +62,4 @@ class SignInVC: UIViewController, GIDSignInUIDelegate{
                 }
             }
         }
-    
-        
-
-    
-   
-
 }
