@@ -12,11 +12,16 @@ import ARKit
 
 class ViewController: UIViewController, ARSCNViewDelegate {
 
+    @IBOutlet weak var profileImage: UIView!
+    @IBOutlet weak var pfImage: UIImageView!
     @IBOutlet var sceneView: ARSCNView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //Profile image conner radious
+        profileImage.layer.cornerRadius = profileImage.frame.size.width/2
+        pfImage.layer.cornerRadius = pfImage.frame.size.width/2
         // Set the view's delegate
         sceneView.delegate = self
         

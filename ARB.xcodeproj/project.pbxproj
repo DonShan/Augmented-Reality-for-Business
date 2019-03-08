@@ -15,6 +15,8 @@
 		2921BCD72201E86A00E20B2D /* OnbordingContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2921BCD62201E86A00E20B2D /* OnbordingContainerVC.swift */; };
 		2925F501220A9CBF004523F9 /* WalkThroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2925F500220A9CBF004523F9 /* WalkThroughPageViewController.swift */; };
 		2925F504220AAF14004523F9 /* walkThroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2925F503220AAF14004523F9 /* walkThroughViewController.swift */; };
+		29382A2A2230FDD9005B7D80 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29382A292230FDD9005B7D80 /* CartViewController.swift */; };
+		29382A2C2230FE44005B7D80 /* PayPalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29382A2B2230FE44005B7D80 /* PayPalViewController.swift */; };
 		2945BD8422113559006AB2A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945BD8322113559006AB2A4 /* AppDelegate.swift */; };
 		296DF01321FED97C003C8A81 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 296DF01221FED97C003C8A81 /* art.scnassets */; };
 		296DF01521FED97C003C8A81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296DF01421FED97C003C8A81 /* ViewController.swift */; };
@@ -58,6 +60,8 @@
 		2921BCD62201E86A00E20B2D /* OnbordingContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbordingContainerVC.swift; sourceTree = "<group>"; };
 		2925F500220A9CBF004523F9 /* WalkThroughPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughPageViewController.swift; sourceTree = "<group>"; };
 		2925F503220AAF14004523F9 /* walkThroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walkThroughViewController.swift; sourceTree = "<group>"; };
+		29382A292230FDD9005B7D80 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		29382A2B2230FE44005B7D80 /* PayPalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPalViewController.swift; sourceTree = "<group>"; };
 		2945BD8322113559006AB2A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		296DF00D21FED97C003C8A81 /* ARB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		296DF01221FED97C003C8A81 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -197,6 +201,8 @@
 				296DF01421FED97C003C8A81 /* ViewController.swift */,
 				2945BD8322113559006AB2A4 /* AppDelegate.swift */,
 				296DF01621FED97C003C8A81 /* Main.storyboard */,
+				29382A2B2230FE44005B7D80 /* PayPalViewController.swift */,
+				29382A292230FDD9005B7D80 /* CartViewController.swift */,
 				29B9BCF722103E3600C9ECCF /* HideButtons.xib */,
 				296DF01921FED97F003C8A81 /* Assets.xcassets */,
 				296DF01B21FED97F003C8A81 /* LaunchScreen.storyboard */,
@@ -497,8 +503,10 @@
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQDropDownTextField/IQDropDownTextField.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftOverlays/SwiftOverlays.framework",
+				"${BUILT_PRODUCTS_DIR}/iOSDropDown/iOSDropDown.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -510,8 +518,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQDropDownTextField.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftOverlays.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOSDropDown.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,7 +537,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				296DF01521FED97C003C8A81 /* ViewController.swift in Sources */,
+				29382A2C2230FE44005B7D80 /* PayPalViewController.swift in Sources */,
 				2925F501220A9CBF004523F9 /* WalkThroughPageViewController.swift in Sources */,
+				29382A2A2230FDD9005B7D80 /* CartViewController.swift in Sources */,
 				29774AC62202BAA5003666CF /* AJProgressView.swift in Sources */,
 				2945BD8422113559006AB2A4 /* AppDelegate.swift in Sources */,
 				2921BCCE22014F5100E20B2D /* LogInVC.swift in Sources */,

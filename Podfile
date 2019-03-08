@@ -6,6 +6,7 @@ target 'ARB' do
   use_frameworks!
 
   # Pods for ARB
+  pod 'iOSDropDown'
   pod 'IQKeyboardManager'
   pod 'Firebase/Core'
   pod 'Firebase/Core'
@@ -13,6 +14,8 @@ target 'ARB' do
   pod 'GoogleSignIn'
   pod 'SwiftOverlays', '~> 5.0.0'
   pod 'DJSemiModalViewController'
+  pod 'IQDropDownTextField'
+
 
   target 'ARBTests' do
     inherit! :search_paths
