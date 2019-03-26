@@ -15,6 +15,7 @@ target 'ARB' do
   pod 'SwiftOverlays', '~> 5.0.0'
   pod 'DJSemiModalViewController'
   pod 'IQDropDownTextField'
+  pod 'Canvas', '~> 0.1'
 
 
   target 'ARBTests' do
