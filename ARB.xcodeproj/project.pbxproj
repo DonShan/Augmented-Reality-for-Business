@@ -27,6 +27,15 @@
 		296DF03321FED97F003C8A81 /* ARBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296DF03221FED97F003C8A81 /* ARBUITests.swift */; };
 		297742DC2249126D00074FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 297742DB2249126D00074FFE /* Assets.xcassets */; };
 		29774AC62202BAA5003666CF /* AJProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29774AC52202BAA5003666CF /* AJProgressView.swift */; };
+		2989A2D1224A81480025686E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2989A2C8224A81470025686E /* SystemConfiguration.framework */; };
+		2989A2D2224A81480025686E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2989A2C9224A81470025686E /* AVFoundation.framework */; };
+		2989A2D3224A81480025686E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2989A2CA224A81470025686E /* AudioToolbox.framework */; };
+		2989A2D4224A81480025686E /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2989A2CB224A81480025686E /* SafariServices.framework */; };
+		2989A2D5224A81480025686E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2989A2CC224A81480025686E /* CoreLocation.framework */; };
+		2989A2D6224A81480025686E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2989A2CD224A81480025686E /* Accelerate.framework */; };
+		2989A2D7224A81480025686E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2989A2CE224A81480025686E /* CoreMedia.framework */; };
+		2989A2D8224A81480025686E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2989A2CF224A81480025686E /* MessageUI.framework */; };
+		2989A2D9224A81480025686E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2989A2D0224A81480025686E /* MobileCoreServices.framework */; };
 		29B9BCF822103E3600C9ECCF /* HideButtons.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29B9BCF722103E3600C9ECCF /* HideButtons.xib */; };
 		42434FD7C5B3E75CB3B3B231 /* Pods_ARBUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6791D920C95A22B4F0AA579 /* Pods_ARBUITests.framework */; };
 		52ED0F4351B31DCD63565855 /* Pods_ARBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D19C5488CD87CE94AC5162 /* Pods_ARBTests.framework */; };
@@ -75,6 +84,15 @@
 		296DF03421FED97F003C8A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		297742DB2249126D00074FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29774AC52202BAA5003666CF /* AJProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJProgressView.swift; sourceTree = "<group>"; };
+		2989A2C8224A81470025686E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2989A2C9224A81470025686E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2989A2CA224A81470025686E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2989A2CB224A81480025686E /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		2989A2CC224A81480025686E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2989A2CD224A81480025686E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		2989A2CE224A81480025686E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2989A2CF224A81480025686E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		2989A2D0224A81480025686E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		29B9BCF722103E3600C9ECCF /* HideButtons.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HideButtons.xib; sourceTree = "<group>"; };
 		3582A9F83C59C61DB67FBF5A /* Pods-ARBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARBUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARBUITests/Pods-ARBUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		79D19C5488CD87CE94AC5162 /* Pods_ARBTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARBTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +110,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2989A2D1224A81480025686E /* SystemConfiguration.framework in Frameworks */,
+				2989A2D2224A81480025686E /* AVFoundation.framework in Frameworks */,
+				2989A2D3224A81480025686E /* AudioToolbox.framework in Frameworks */,
+				2989A2D4224A81480025686E /* SafariServices.framework in Frameworks */,
+				2989A2D5224A81480025686E /* CoreLocation.framework in Frameworks */,
+				2989A2D6224A81480025686E /* Accelerate.framework in Frameworks */,
+				2989A2D7224A81480025686E /* CoreMedia.framework in Frameworks */,
+				2989A2D8224A81480025686E /* MessageUI.framework in Frameworks */,
+				2989A2D9224A81480025686E /* MobileCoreServices.framework in Frameworks */,
 				270F01385BBB60DDC476B716 /* Pods_ARB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,11 +169,11 @@
 			path = DropDown;
 			sourceTree = "<group>";
 		};
-		2925CEA4220D6FFD008BBF45 /* iphone 3d model */ = {
+		2925CEA4220D6FFD008BBF45 /* pay pal */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "iphone 3d model";
+			path = "pay pal";
 			sourceTree = "<group>";
 		};
 		2925F502220AAED4004523F9 /* Controlling */ = {
@@ -183,7 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				29242F30222F745600581D9C /* DropDown */,
-				2925CEA4220D6FFD008BBF45 /* iphone 3d model */,
+				2925CEA4220D6FFD008BBF45 /* pay pal */,
 				29774AC42202BA56003666CF /* ActivityIndicator */,
 				2921BCD3220171B300E20B2D /* Onbording */,
 				2912C06621FF0E0200A8C5CC /* Authantication */,
@@ -232,6 +259,15 @@
 		5B3D3F09D0562433E3117D94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2989A2CD224A81480025686E /* Accelerate.framework */,
+				2989A2CA224A81470025686E /* AudioToolbox.framework */,
+				2989A2C9224A81470025686E /* AVFoundation.framework */,
+				2989A2CC224A81480025686E /* CoreLocation.framework */,
+				2989A2CE224A81480025686E /* CoreMedia.framework */,
+				2989A2CF224A81480025686E /* MessageUI.framework */,
+				2989A2D0224A81480025686E /* MobileCoreServices.framework */,
+				2989A2CB224A81480025686E /* SafariServices.framework */,
+				2989A2C8224A81470025686E /* SystemConfiguration.framework */,
 				E9680F6919D811D95149C842 /* Pods_ARB.framework */,
 				79D19C5488CD87CE94AC5162 /* Pods_ARBTests.framework */,
 				B6791D920C95A22B4F0AA579 /* Pods_ARBUITests.framework */,

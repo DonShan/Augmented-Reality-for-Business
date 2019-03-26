@@ -1,5 +1,6 @@
 PODS:
   - Canvas (0.1.2)
+  - CardIO (5.4.1)
   - DJSemiModalViewController (0.1.2)
   - Firebase/Auth (5.10.0):
     - Firebase/CoreOnly
@@ -82,6 +83,12 @@ PODS:
     - nanopb/encode (= 0.3.8)
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
+  - PayPal-iOS-SDK (2.18.1):
+    - PayPal-iOS-SDK/CardIO (= 2.18.1)
+    - PayPal-iOS-SDK/Core (= 2.18.1)
+  - PayPal-iOS-SDK/CardIO (2.18.1):
+    - CardIO (~> 5.4.1)
+  - PayPal-iOS-SDK/Core (2.18.1)
   - SwiftOverlays (5.0.1)
 
 DEPENDENCIES:
@@ -93,11 +100,13 @@ DEPENDENCIES:
   - iOSDropDown
   - IQDropDownTextField
   - IQKeyboardManager
+  - PayPal-iOS-SDK
   - SwiftOverlays (~> 5.0.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Canvas
+    - CardIO
     - DJSemiModalViewController
     - Firebase
     - FirebaseAnalytics
@@ -115,10 +124,12 @@ SPEC REPOS:
     - IQDropDownTextField
     - IQKeyboardManager
     - nanopb
+    - PayPal-iOS-SDK
     - SwiftOverlays
 
 SPEC CHECKSUMS:
   Canvas: eb861e3b555d032648146c8ffda1a5dea40059ca
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
   DJSemiModalViewController: 37874ffd8e040e78aed443435e8d388da783028d
   Firebase: 6691d47562a780c26281ce8464518faafc90c610
   FirebaseAnalytics: 831f1f127f4a75698e9875a87bf7e2668730d953
@@ -136,8 +147,9 @@ SPEC CHECKSUMS:
   IQDropDownTextField: 3d2e5728a2b83ff5dbb14cb9b497a80005124cbe
   IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  PayPal-iOS-SDK: 10654cd111e911a9807bddb96fae81aacb8e9915
   SwiftOverlays: ab459ea9194b0e96aaccaa00e9ead1bf6d46eef1
 
-PODFILE CHECKSUM: f5e31c0c50d8178ff43fd870af53871ef82622d5
+PODFILE CHECKSUM: 3774078b4572138a60eaed90bed75fc7a94291eb
 
 COCOAPODS: 1.5.3

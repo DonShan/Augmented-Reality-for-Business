@@ -16,6 +16,7 @@ target 'ARB' do
   pod 'DJSemiModalViewController'
   pod 'IQDropDownTextField'
   pod 'Canvas', '~> 0.1'
+  pod ‘PayPal-iOS-SDK’
 
 
   target 'ARBTests' do

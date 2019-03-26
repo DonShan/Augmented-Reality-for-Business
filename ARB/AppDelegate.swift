@@ -34,6 +34,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         //Google Sign In Delegations
         GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
         GIDSignIn.sharedInstance().delegate = self
+        
+        //Pay pal
+        
+        //PayPalMobile .initializeWithClientIds(forEnvironments: [PayPalEnvironmentProduction: “YOUR_CLIENT_ID_FOR_PRODUCTION”,
+         //                                                       PayPalEnvironmentSandbox: “YOUR_CLIENT_ID_FOR_SANDBOX”])
+        
         return true
     }
 
